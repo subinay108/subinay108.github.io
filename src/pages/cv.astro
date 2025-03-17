@@ -1,0 +1,88 @@
+---
+import BaseLayout from "../layouts/BaseLayout.astro";
+import TimeLineElement from "../components/cv/TimeLine.astro";
+---
+
+<BaseLayout title="Resume" sideBarActiveItemID="cv">
+  <div class="mb-5">
+    <div class="text-3xl w-full font-bold">Profile</div>
+  </div>
+
+  <div class="mb-10 text-justify">
+    Passionate and versatile developer with experience in building innovative applications across web, mobile, and desktop platforms. 
+    Skilled in AI, optimization, and generative AI, with a fast-learning mindset that enables me to adapt to new technologies as needed. 
+    Constantly exploring new ideas and solving real-world problems through technology.
+  </div>
+
+  <div class="mb-5">
+    <div class="text-3xl w-full font-bold">Education</div>
+  </div>
+
+  <div class="time-line-container grid gap-4 mb-10">
+    <TimeLineElement
+      title="B.Tech in Computer Science and Engineering (Data Science)"
+      subtitle="2022 to 2026 at Brainware University, Kolkata, West Bengal, India"
+    />
+    <TimeLineElement
+      title="Higher Secondary"
+      subtitle="2019 to 2021 at Jawahar Navodaya Vidyalaya, Purba Medinipur, West Bengal, India"
+    />
+  </div>
+
+  <div class="mb-5">
+    <div class="text-3xl w-full font-bold">Certifications</div>
+  </div>
+
+  <ul class="list-disc mx-6 mb-10 grid gap-2">
+    <li>
+      <a href="#" target="_blank">Introduction to Machine Learning</a>
+    </li>
+    <li>
+      <a href="#" target="_blank">Deep Learning</a>
+    </li>
+  </ul>
+
+  <div class="mb-5">
+    <div class="text-3xl w-full font-bold">Skills</div>
+  </div>
+
+  <div class="mb-3">
+    <div class="text-2xl w-full font-semibold">Languages</div>
+  </div>
+
+  <ul class="list-disc md:columns-5 columns-2 mx-6 mb-4">
+    <li>Python</li>
+    <li>Java</li>
+    <li>C</li>
+    <li>C++</li>
+    <li>HTML</li>
+    <li>CSS</li>
+    <li>Javascript</li>
+    <li>PHP</li>
+    <li>MySQL</li>
+    <li>Oracle</li>
+    <li>MongoDB</li>
+  </ul>
+
+  <div class="mb-3">
+    <div class="text-2xl w-full font-semibold">Technology & Libraries</div>
+  </div>
+
+  <ul class="list-disc md:columns-5 columns-2 mx-6">
+    <li>ReactJS</li>
+    <li>NextJS</li>
+    <li>TailwindCSS</li>
+    <li>NodeJS</li>
+    <li>ExpressJS</li>
+    <li>ReactNative</li>
+    <li>JavaFX</li>
+    <li>Lynx</li>
+    <li>Langchain</li>
+    <li>LlamaIndex</li>
+    <li>Pandas</li>
+    <li>Tensorflow</li>
+    <li>OpenCV</li>
+    <li>Firebase</li>
+  </ul>
+
+</BaseLayout>
